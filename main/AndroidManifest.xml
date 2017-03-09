@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rachit.projectmovie">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ebuzz"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="com.example.rachit.projectmovie"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Search.SearchMainActivity" />
+        <activity android:name=".Search.SearchMain2Activity" />
+        <activity android:name=".Theatres.Theatre" />
+        >
+        <activity android:name=".Theatres.East" />
+        <activity android:name=".Theatres.North" />
+        <activity android:name=".Theatres.South" />
+        <activity android:name=".Theatres.West" />
+        <activity android:name=".Trailer.MainActivity" />
+        <activity android:name=".Trailer.Maardari" />
+        <activity android:name=".movies.Contextmain" />
+        <activity android:name=".SplashMain">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

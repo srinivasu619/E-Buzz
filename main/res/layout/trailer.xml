@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:padding="5dp" />
+    <ScrollView android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/scrollView"
+        android:background="@color/primary_dark_material_dark">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView" android:textSize="20dp" style="@android:style/TextAppearance.Widget.TextView" android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/background_floating_material_light" />
+
+</ScrollView>
+
+</LinearLayout>
